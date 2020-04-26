@@ -10,5 +10,6 @@ class BabySerializer(serializers.ModelSerializer):
         fields = (
             'id',
             'firstName',
-            'lastName'
+            'lastName',
+            'parent'
         )

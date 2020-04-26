@@ -11,5 +11,6 @@ class EventSerializer(serializers.ModelSerializer):
             'id',
             'eventType',
             'notes',
-            'date'
+            'date',
+            'baby'
         )
